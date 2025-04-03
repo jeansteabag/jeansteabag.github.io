@@ -17,17 +17,17 @@
       format("opentype");
   }
   @font-face {
-    font-family: HK Grotesk;
+    font-family: HK Grotesk Bold;
     font-weight: bold;
     src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Bold.otf?v=1603136323437")
       format("opentype");
   }
 
   .h1 {
-    font-family: "HK Grotesk";
+    font-family: "HK Grotesk", Helvetica, sans-serif;
   }
   
-  .p2 {
+  .h2 {
     font-family: Arial, Helvetica, sans-serif;
   }
   
