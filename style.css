@@ -13,14 +13,12 @@
 /* Import fonts */
 @font-face {
     font-family: HK Grotesk;
-    src: url(HKGrotesk-Regular.otf)
-      format("opentype");
+    src: url(HKGrotesk-Regular.otf);
   }
   @font-face {
-    font-family: HK Grotesk;
+    font-family: HK Grotesk Bold;
     font-weight: bold;
-    src: url(HKGrotesk-Bold.otf)
-      format("opentype");
+    src: url(HKGrotesk-Bold.otf);
   }
 
   .h1 {
