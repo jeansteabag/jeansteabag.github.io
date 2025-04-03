@@ -21,6 +21,10 @@
     src: url('../HKGrotesk-Bold.otf');
   }
 
+marquee{
+    font-family: 'HK-Grotesk', sans-serif;
+}
+
   h1 {
     font-family: 'HK Grotesk', sans-serif;
   }
