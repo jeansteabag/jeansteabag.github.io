@@ -21,14 +21,14 @@
     src: url('HKGrotesk-Bold.otf');
   }
 
-  .h1 {
+  h1 {
     font-family: 'HK Grotesk', sans-serif;
   }
   
-  .h2 {
+  h2 {
     font-family: Arial, Helvetica, sans-serif;
   }
   
-  .h3 {
+  h3 {
     font-family: 'Lucida Console', 'Courier New', monospace;
   }
