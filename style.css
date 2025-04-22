@@ -11,15 +11,17 @@
   } */
 
 /* Import fonts */
-@font-face {
+@font-face 
+{
     font-family: HK Grotesk;
     src: url('../HKGrotesk-Regular.otf');
-  }
-  @font-face {
+}
+@font-face 
+{
     font-family: HK Grotesk Bold;
     font-weight: bold;
-    src: url('../HKGrotesk-Bold.otf');
-  }
+    src: url('../HKGrotesk-Bold.otf')
+}
 
 body
 {
@@ -35,14 +37,6 @@ body
 
   display: flex;
   flex-wrap: wrap;
-}
-
-.container > * 
-{
-  padding: 10px;
-
-  margin: 0 10px;
-  flex: 1 1 200px;
 }
 
 .two
