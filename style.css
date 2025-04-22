@@ -36,19 +36,16 @@ body
   font: 1.2em, sans-serif;
 
   display: flex;
-  flex-wrap: wrap;
 }
 
 .one,
-.two,
-.three
-{
-    display: inline-block;
-}
-
 .two
 {
     margin-right: auto;
+}
+.three
+{
+    display: inline-block;
 }
 
 @media all and (max-width: 500px)
