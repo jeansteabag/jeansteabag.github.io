@@ -39,6 +39,13 @@ body
   flex-wrap: wrap;
 }
 
+.one,
+.two,
+.three
+{
+    display: inline-block;
+}
+
 .two
 {
     margin-right: auto;
