@@ -49,6 +49,7 @@ body
 .one 
 {
     background-color: #aee2ff; /* pastel blue */
+    line-height: 1.8em; /* More space between lines */
 }
 
 .two
