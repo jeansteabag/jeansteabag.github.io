@@ -23,75 +23,103 @@
     src: url('../HKGrotesk-Bold.otf')
 }
 
-body
+:root 
 {
+    --color-bg-pastel-blue: #aee2ff;
+    --font-hk: 'HK Grotesk', sans-serif;
+}
+
+body {
     font-size: 18px;
     line-height: 1.5em;
+    font-family: var(--font-hk);
 }
 
-.container 
-{
-    padding: 20px, 10px;
-    width: 500px;
-    font: 1.2em, sans-serif;
-    column-gap: 40px;
+.container {
+    padding: 20px 10px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
-    flex-warp: warp;
+    flex-wrap: wrap;
+    column-gap: 40px;
 }
 
-.two{
-  margin-right: auto;
+.one {
+    background-color: #aee2ff; /* pastel blue */
+    flex: 1 1 300px; /* Grows/shrinks but starts around 300px */
+    padding: 10px;
+
 }
 
-@media all and (max-width: 500px)
+.two
 {
-    body
+    flex: 2 1 500px;
+    padding: 10px;
+    word-wrap: break-word;
+}
+
+marquee,
+h1,
+h2,
+h3,
+p,
+a 
+{
+    font-family: var(--font-hk);
+}
+
+/* Typography styles */
+h2 
+{
+    font-size: 0.8em;
+}
+
+/* Responsive tweaks */
+@media (max-width: 1024px) 
+{
+    .container 
+    {
+        flex-direction: column;
+    }
+
+    .one, .two 
+    {
+        width: 100%;
+        flex: none;
+    }
+
+    body 
+    {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 500px) 
+{
+    body 
     {
         font-size: 24px;
         line-height: 1.2em;
     }
-    p
+
+    p 
     {
-        width: 24em;
+        width: 100%;
     }
 }
 
-@media all and (min-width: 1200px)
+@media (min-width: 1200px) 
 {
-    body
+    body 
     {
         font-size: 32px;
     }
-    p
+
+    p 
     {
         width: 36em;
     }
-}
-
-marquee
-{
-    font-family: 'HK-Grotesk', sans-serif;
-}
-
-h1 
-{
-    font-family: 'HK Grotesk', sans-serif;
-}
-  
-h2 
-{
-    font-family: 'HK Grotesk', sans-serif;
-    font-size: 0.8em;
-}
-  
-h3
-{
-    font-family: Lucida Console, Courier New, monospace;
-}
-
-p 
-{
-    font-family: Arial, sans-serif;
 }
 
 
