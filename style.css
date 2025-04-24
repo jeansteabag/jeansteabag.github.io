@@ -49,16 +49,11 @@ body
 .one 
 {
     background-color: #aee2ff; /* pastel blue */
-    flex: 1 1 300px; /* Grows/shrinks but starts around 300px */
-    padding: 10px;
 }
 
 .two
 {
-    flex: 2 1 500px;
-    padding: 10px;
     margin-right: auto;
-    word-wrap: break-word;
 }
 
 marquee,
