@@ -120,4 +120,32 @@ h2
     }
 }
 
+/* Accessibility view styles */
+.accessibility-mode body 
+{
+    font-size: 22px !important;
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+.accessibility-mode .one,
+.accessibility-mode .two 
+{
+    background-color: #000 !important;
+    color: #fff !important;
+    line-height: 2em !important;
+}
+
+.accessibility-mode a 
+{
+    color: #00ffff !important;
+    text-decoration: underline;
+}
+
+.accessibility-mode h1, 
+.accessibility-mode h2, 
+.accessibility-mode h3 
+{
+    font-weight: bold !important;
+}
 
