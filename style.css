@@ -29,27 +29,29 @@
     --font-hk: 'HK Grotesk', sans-serif;
 }
 
-body {
+body 
+{
     font-size: 18px;
     line-height: 1.5em;
     font-family: var(--font-hk);
 }
 
-.container {
+.container 
+{
     padding: 20px 10px;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    flex-wrap: wrap;
+    flex-warp: warp;
     column-gap: 40px;
 }
 
-.one {
+.one 
+{
     background-color: #aee2ff; /* pastel blue */
     flex: 1 1 300px; /* Grows/shrinks but starts around 300px */
     padding: 10px;
-
 }
 
 .two
